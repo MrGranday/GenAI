@@ -10,3 +10,26 @@ elephant....0.1
 dog.....0.3
 cat.... 0.2
 panther...0.05
+
+
+to exert some control over the LLM we can affect the probability over vocabulary in 2 ways 
+// Prompting
+// Training
+
+//* Prompting   *//
+
+the simplest way to affect the distribution over the vocabulary is to change the prompt
+=> the text provided to an LLM  as input sometimes containing instructions and/or example
+ 
+ the example that we have talked about above 
+ ........ they sent me a little .......
+
+ so in here the probability of the smaller animals goes up and the probability of the larger animals goes down
+
+
+
+//* Prompt engineering*//
+
+ the process of iteratively refining a prompt for the purpose of eliciting a particular style of response 
+ in the prompt engineering you would br actually generating text form a model and seeing wither the generated text looks good
+ 
