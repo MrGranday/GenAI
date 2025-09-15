@@ -43,7 +43,7 @@ conditioning (prompting ) an LLM with instruction and or demonstrating of the ta
 
 //example
 this is the GPT prompt example the purpose of this prompt is to translate the french language to english
-
+/////this is the example of 3-shot prompting
 
 
 |-------------------------------
@@ -61,7 +61,13 @@ this is the GPT prompt example the purpose of this prompt is to translate the fr
 |---------------------------------
 
 
-/////this is the example of 3-shot prompting
+//example
+//////this is the example of 2-shot prompting  
+// NOTE:  the model will not actually perform the computation instead it will generate the probabilities over words 
+// and most likely to follow the expression 1 + 8 :
+Add 3+4: 7
+Add 6+5: 11
+Add 1+8: 
 
 
 
@@ -69,3 +75,13 @@ this is the GPT prompt example the purpose of this prompt is to translate the fr
 
 //*k-shot prompting *//
 explicitly providing k examples of the intended task in the prompt
+
+
+
+//* Advance Prompting strategies*//
+// Chain-of-Thought-  Prompt the LLM to emit intermediate reasoning steps
+(example):
+Q: Roger has 5 tennis balls he buys 2 more cans of tennis balls each can has 3 tennis balls 
+how many tennis balls does he have now?
+A: Roger started with 5 balls 2 cans of 3 tennis balls each is 6 tennis balls 5+6=11 the answer is 11
+
