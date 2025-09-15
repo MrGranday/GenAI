@@ -1,0 +1,12 @@
+//* Prompting and prompt engineering*//
+
+an LLM compute a distribution over the next word in the sequence which i will be illustrating with the probabilities under the visualized words 
+
+I WROTE TO THE ZOO TO SEND ME A PET. THEY SENT ME A..............
+
+words Probability (example)
+line ....0.1
+elephant....0.1
+dog.....0.3
+cat.... 0.2
+panther...0.05
