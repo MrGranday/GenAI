@@ -32,4 +32,40 @@ the simplest way to affect the distribution over the vocabulary is to change the
 
  the process of iteratively refining a prompt for the purpose of eliciting a particular style of response 
  in the prompt engineering you would br actually generating text form a model and seeing wither the generated text looks good
- 
+=> if i even have a smaller change that could be a white space that could the and have effect on the distribution over vocabulary words
+
+their are few strategies ....
+
+
+//*In-context learning *//
+conditioning (prompting ) an LLM with instruction and or demonstrating of the task it is meant to complete 
+
+
+//example
+this is the GPT prompt example the purpose of this prompt is to translate the french language to english
+
+
+
+|-------------------------------
+|translate English to French     --------> task description 
+|-------------------------------
+
+|----------------------------------
+|sea otter => louter de mer
+|peppermint => menthe poviree    ---------> examples
+|push girafe => girafe peluch
+|----------------------------------
+
+|---------------------------------
+| cheese =>         -----------------------> prompt 
+|---------------------------------
+
+
+/////this is the example of 3-shot prompting
+
+
+
+
+
+//*k-shot prompting *//
+explicitly providing k examples of the intended task in the prompt
