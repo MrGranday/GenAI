@@ -91,3 +91,6 @@ A: Roger started with 5 balls 2 cans of 3 tennis balls each is 6 tennis balls 5+
 prompt the LLM to decompose the problem and solve , easy-first
 Start by solving the easiest parts of the problem first.
 Then slowly move toward the harder parts.
+
+//*Step-Back*//
+// this introduce by Deepmind and it was used for enhancing the performance in chemistry and physics 

@@ -1,1 +1,9 @@
 //*Issues with prompting*//
+in this we will see some of the danger of prompting that how prompting can be used to elicit unintended or 
+harmful behaver from a model 
+
+
+//*Prompt injection (jailbreaking)*//
+
+this is used for to provide an LLM with input that attempts to cause it to ignore instruction, cause harm, or behave contrary to
+deployment expectations
