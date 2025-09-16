@@ -31,3 +31,28 @@ output: i wrote to the zoo to send me a pet. they sent me a dog.
 
 
 {this was the process of Greedy Decoding}
+
+
+//*Non-Deterministic Decoding*//
+
+Picking randomly among highest probability candidates at each step.
+
+e.g
+
+--->1).I wrote to the zoo to send me a pet. they sent me a___________.
+
+words Probability....... lion 0.03, elephant 0.02, dog 0.45, cat 0.4, small 0.01
+
+--->2).i wrote to the zoo to send me a pet. they sent me a small_____
+
+after selecting the dog then the probability for other words change in here the probability
+of dog is highest but it randomly selected small
+
+word probability....... EOS 0.99, elephant0.0001, panther 0.0005...., red 0.01, cat 0.8
+
+--->3).i wrote to the zoo to send me a pet. they sent me a small red______
+word probability....... EOS 0.99, elephant0.0001, panther 0.0005...., red 0.01, cat 0.8, panda 0.5
+
+----> then it will select the panda .....END OF SENTENCE 
+=======the final output=========
+output: i wrote to the zoo to send me a pet. they sent me a small red panda.
