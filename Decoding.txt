@@ -56,3 +56,18 @@ word probability....... EOS 0.99, elephant0.0001, panther 0.0005...., red 0.01, 
 ----> then it will select the panda .....END OF SENTENCE 
 =======the final output=========
 output: i wrote to the zoo to send me a pet. they sent me a small red panda.
+
+
+//*Temperature*//
+
+when decoding Temperature is a (hyper) parameter that modulates the distribution over vocabulary
+
+
+// when Temperature is decreased the distribution is more peaked around the most likely word 
+----> the Decreasing means that the probability for the highest words goes up from dog 0.45...dog 0.78
+
+
+
+// when Temperature is increased the distribution is flattened over all words 
+----> the increasing means the probability over all words are flattened overall probabilities goes up for every word
+
