@@ -1,0 +1,16 @@
+//--> Prompting alone may be inappropriate when: the training data exists or domain adaption is required 
+
+
+//*Training*//
+//
+
+
+Training style            |modifies             |Data                      |Summary
+                          |                     |                          | Classic ML Training
+Fine-tuning(FT)           |All parameter        |Labeled, task-specific    | +Learnable params to LLM
+Param. Efficient(FT)      |Few, new parameter   |Labeled, task-specific    | Learnable prompt params
+Soft prompting            |Few, new parameter   |Labeled, task-specific    | Same as LLM pre-training
+(cont.)pre-training       |All parameter        |unlabeled                 |
+--------------------------------------------------------------------------------------------------------|
+
+
