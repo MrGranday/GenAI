@@ -1,0 +1,33 @@
+//*Decoding*//
+
+decoding -- the process of generating text with an LLM
+
+e.g
+
+I wrote to the zoo to send me a pet. they sent me a___________.
+
+words Probability....... lion 0.03, elephant 0.02, dog 0.45, cat 0.4
+
+
+//// Decoding happens iteratively, 1 word at a time 
+//// at each step decoding we use the distribution over vocabulary and select 1 word to emit
+//// the word is appended to the input the decoding process continues 
+
+
+//*Greedy Decoding *//
+then picking the highest probability word at each step
+so it will generate like this 
+
+i wrote to the zoo to send me a pet. they sent me a dog_____
+
+after selecting the dog then the probability for other words change
+
+word probability....... EOS 0.99, elephant0.0001, panther 0.0005....
+
+----> then it will select the EOS .....END OF SENTENCE 
+
+=======the final output=========
+output: i wrote to the zoo to send me a pet. they sent me a dog.
+
+
+{this was the process of Greedy Decoding}
