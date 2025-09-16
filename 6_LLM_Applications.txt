@@ -1,0 +1,24 @@
+//*LLM Application*//
+
+//*Retrieval Augmented Generation*//
+
+this is primarily used in QA, where the model has access to (retrieval) support document
+for a query 
+//--> in the simple words Search first, then answer the questions
+
+// a language model like chat gpt only knows what it was trained on if i ask about the policy of company 
+or anything like this is will not know the right answer 
+// so to fix this RAG first looks up relevant doc then answer related to this 
+
+
+claimed to reduce hallucination
+
+
+//---> Non-parametric: it means for improvements for this model is easy you don't have to change 
+the code of the model for the improvements you should just add more docs for improve answer 
+
+//* Code Model*//
+these model are trained on code and comments 
+these are like co-pilot, Codex,  Code Llama
+
+
