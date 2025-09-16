@@ -85,3 +85,9 @@ Q: Roger has 5 tennis balls he buys 2 more cans of tennis balls each can has 3 t
 how many tennis balls does he have now?
 A: Roger started with 5 balls 2 cans of 3 tennis balls each is 6 tennis balls 5+6=11 the answer is 11
 
+/// this chain of thought can solve some of the hardest questions 
+
+//*Least-to-most*//
+prompt the LLM to decompose the problem and solve , easy-first
+Start by solving the easiest parts of the problem first.
+Then slowly move toward the harder parts.
