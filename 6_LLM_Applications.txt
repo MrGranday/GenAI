@@ -24,3 +24,16 @@ these are like co-pilot, Codex,  Code Llama
 
 generally training the model on code is more easy then written text 
 because code is mode structured and more repetitive then the text 
+
+
+//*Multi-Model*//
+these are models that are trained on the multiple modalities e.g. language and images
+
+
+// the text model just generate text word by word but the diffusion models generate the images all at once 
+they don't create one pixel at the time  .... but it will started image of simple noise at first it is not picture 
+of anything then changing the every pixel simultaneously  then the right image is made 
+
+
+//*language models*//
+ 
