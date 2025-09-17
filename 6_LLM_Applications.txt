@@ -22,3 +22,5 @@ these model are trained on code and comments
 these are like co-pilot, Codex,  Code Llama
 
 
+generally training the model on code is more easy then written text 
+because code is mode structured and more repetitive then the text 
