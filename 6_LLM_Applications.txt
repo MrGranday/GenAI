@@ -36,4 +36,10 @@ of anything then changing the every pixel simultaneously  then the right image i
 
 
 //*language models*//
+ // a budding area of research where LLM-based agents 
  
+/// some notable work in the space:
+
+//*ReAct*//
+
+Iterative framework where LLM emits thoughts, then acts, and observes result 
