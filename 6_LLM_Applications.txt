@@ -43,3 +43,9 @@ of anything then changing the every pixel simultaneously  then the right image i
 //*ReAct*//
 
 Iterative framework where LLM emits thoughts, then acts, and observes result 
+
+//*Toolformer*//
+Pre-training technique where strings are replaced with calls to tools that yield result 
+
+//*Bootstrapped reasoning 
+Prompt the LLM to emit rationalization of intermediate steps; Use as fine-tuning data 
