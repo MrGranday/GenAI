@@ -4,8 +4,25 @@
 (LLMs) available via single API to build generative AI applications  
 
 
-choice of models: high performing pretrained foundations models from meta and cohere
+choice of models: high performing pre-trained foundations models from meta and cohere
 
 Flexible fine-tuning: create custom models by fine-tuning foundational models with your own data set
 
 dedicated AI Cluster: GPU based compute resources that host your fine-tuning and inference workloads
+
+
+HOW THE OCI Generative AI Service WORKS 
+ 
+
+
+ ------> Text input ------> OCI Generative AI Service----->Text output
+
+ there are two pre-trained models
+ /////CHAT models----ask questions and get conversational responses instruction-following models
+ /////EMBEDDING models----->convert text to vector embeddings semantic search multilingual models 
+
+///-->> the diff btw chat and embedding 
+
+//*WHAT IS FINE-TUNING*//
+is the process of taking a pre-trained AI model and training it further on a smaller, specific dataset
+so that it preforms better on a particular task or domain  
