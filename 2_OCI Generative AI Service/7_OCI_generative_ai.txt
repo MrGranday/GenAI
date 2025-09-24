@@ -1,0 +1,11 @@
+//*OCI Generative AI Service *//
+
+//Fully managed Service-- that provides a set of customized large language models
+(LLMs) available via single API to build generative AI applications  
+
+
+choice of models: high performing pretrained foundations models from meta and cohere
+
+Flexible fine-tuning: create custom models by fine-tuning foundational models with your own data set
+
+dedicated AI Cluster: GPU based compute resources that host your fine-tuning and inference workloads
