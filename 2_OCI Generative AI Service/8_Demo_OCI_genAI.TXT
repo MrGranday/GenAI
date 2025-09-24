@@ -1,0 +1,9 @@
+//*parameters*//
+
+what is Preamble Override
+is a term usually used when someone tries to bypass or replace the system or safety instruction that an AI
+like GPT 
+
+the instruction of GPT are guided by an initial set of rules (system instruction)
+this (Preamble Override) means inserting a command or trick in the user input to make 
+make GPT ignore those rules and follow the new ones instead 

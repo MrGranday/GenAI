@@ -26,3 +26,7 @@ HOW THE OCI Generative AI Service WORKS
 //*WHAT IS FINE-TUNING*//
 is the process of taking a pre-trained AI model and training it further on a smaller, specific dataset
 so that it preforms better on a particular task or domain  
+
+---> improve model performance on specific task
+---> improve model efficiency 
+///--> use when a pre-trained model doesn't preform your task well or you want to teach it something new 
