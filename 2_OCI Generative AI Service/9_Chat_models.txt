@@ -1,0 +1,5 @@
+//*Token*//
+in the LLMs they understand Tokens rather then character
+one token can be qa part of a word, an entire word, or punctuation.
+a common word such as "apple " is a token
+a word such as Friendship is made up of two tokens "friend" and "ship"
