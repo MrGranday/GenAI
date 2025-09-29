@@ -3,3 +3,20 @@ in the LLMs they understand Tokens rather then character
 one token can be qa part of a word, an entire word, or punctuation.
 a common word such as "apple " is a token
 a word such as Friendship is made up of two tokens "friend" and "ship"
+
+
+//*Top K*//
+
+top k tell the model to pick the next token from the top 'K' tokens in its list, sorted probability 
+e.g
+if top k is set to 3 the model will only pick from the top 3 options and ignore all others 
+
+
+//*Top P*//
+Top p is similar to the top k but pick from the top tokens based on the sum of their probability
+e.g 
+if the p is set as 15 then it will only pick from the options that the probability is near 15% when they are added the probability
+
+
+//*Frequency and Presence Penalties *//
+these are useful if you want to get rid of repetition in your outputs
